@@ -1,852 +1,477 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 
 <head>
     <base href="..">
-    <link rel="shortcut icon" type="image/png" href="assets/aimst logo favicon.png"/>
-    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
-    <script type="text/javascript" async
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=default">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="assets/aimst logo favicon.png">
+    <title>Program | 2nd ICESGSD 2026</title>
+    <meta name="description" content="Full program schedule for ICESGSD 2026, 26–27 September 2026. Keynotes, plenaries, invited talks, panel discussion and student presentation sessions.">
+    <meta name="theme-color" content="#f6f3ea">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Program — 2nd ICESGSD 2026">
+    <meta property="og:description" content="Two days of keynotes, plenaries, invited talks and student presentations.">
+    <meta property="og:image" content="assets/Untitled.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/main.css">
+    <script>
+        (function () {
+            document.documentElement.classList.add("js");
+            try {
+                var stored = localStorage.getItem("icesgsd-theme");
+                var theme = stored || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+                document.documentElement.setAttribute("data-theme", theme);
+            } catch (e) {
+                document.documentElement.setAttribute("data-theme", "light");
+            }
+        })();
     </script>
-    <meta name="description" content="Conference Template">
-    <meta name="resource-type" content="document">
-    <meta name="distribution" content="global">
-    <meta name="KeyWords" content="Conference">
-    <title>Program | 2nd ICESGSD</title>
 </head>
 
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <div class="banner">
-        <img src="assets/Untitled.jpg" alt="Conference Template Banner">
-        <div class="top-left">
-            <span class="title1">2nd International</span><span class="title2"> Conference</span> 
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html" aria-label="ICESGSD 2026 home">
+                <img src="assets/aimst logo.png" alt="AIMST University logo" width="38" height="38">
+                <span class="brand-text">
+                    <strong>ICESGSD 2026</strong>
+                    <small>AIMST University · Malaysia</small>
+                </span>
+            </a>
+            <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./organisers/index.html">Organisers</a></li>
+                    <li><a class="current" href="./program/index.html" aria-current="page">Program</a></li>
+                    <li><a href="./speakers/index.html">Speakers</a></li>
+                    <li><a href="./registration/index.html">Registration</a></li>
+                    <li><a href="./cab/index.html">Call for Abstracts</a></li>
+                    <li><a href="./contact/index.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+                    <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+                    <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.5 6.5 0 0 0 9.8 9.8z"/></svg>
+                </button>
+                <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
         </div>
-        <div class="bottom-right">
-            26-27 September 2026 <br> Environment, Social & Governance & Sustainability in Dentistry <br>
-            <span class="title3">Shaping the Future of Sustainable Dentistry</span>
+    </header>
+
+    <main id="main">
+        <section class="page-hero">
+            <div class="container">
+                <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><span>Program</span></nav>
+                <span class="eyebrow">Program</span>
+                <h1>Program schedule</h1>
+                <p class="lead">Two days of keynotes, plenaries, invited talks, panel discussion and student presentations. All times are Malaysia Time (MYT, UTC+8).</p>
+                <div class="hero-meta" style="margin-top:1.25rem;color:var(--muted)">
+                    <span><i class="fa-regular fa-calendar" aria-hidden="true"></i>Day 1 · Saturday, 26 September 2026</span>
+                    <span><i class="fa-regular fa-calendar" aria-hidden="true"></i>Day 2 · Sunday, 27 September 2026</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container" data-tabs>
+                <div class="day-tabs" role="tablist" aria-label="Program days">
+                    <button class="day-tab" id="tab-day1" role="tab" aria-selected="true" aria-controls="panel-day1" tabindex="0">Day 1 · 26 Sep</button>
+                    <button class="day-tab" id="tab-day2" role="tab" aria-selected="false" aria-controls="panel-day2" tabindex="-1">Day 2 · 27 Sep</button>
+                </div>
+
+                <div class="day-panel" id="panel-day1" role="tabpanel" aria-labelledby="tab-day1">
+                    <div class="schedule-day">
+                        <div class="schedule-day-head">
+                            <h2>Saturday, 26 September 2026</h2>
+                            <span>Day 1</span>
+                        </div>
+                        <div class="session-list">
+                            <div class="session is-break">
+                                <div class="session-time">08:30 – 09:00</div>
+                                <div class="session-body"><span class="session-title">Registration and virtual check-in</span></div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">09:00 – 09:10</div>
+                                <div class="session-body"><span class="session-kind">Opening</span><div class="session-title">Master of Ceremony welcome</div></div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">09:10 – 09:20</div>
+                                <div class="session-body"><span class="session-kind">Opening</span><div class="session-title">Welcome address by the Organising Chair</div></div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">09:20 – 09:35</div>
+                                <div class="session-body"><span class="session-kind">Opening</span><div class="session-title">Address by the Dean, Faculty of Dentistry, AIMST University</div></div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">09:35 – 09:50</div>
+                                <div class="session-body"><span class="session-kind">Opening</span><div class="session-title">Address by the Vice Chancellor / Chief Guest</div></div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">09:50 – 10:00</div>
+                                <div class="session-body"><span class="session-kind">Ceremony</span><div class="session-title">Official opening and launch of the conference</div></div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">10:00 – 10:40</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Keynote lecture 1</span>
+                                    <div class="session-title">Dentistry in 2035 — AI, bioprinting &amp; the ESG imperative</div>
+                                    <div class="session-speaker">Prof. Dr. Ramya Ramadoss</div>
+                                </div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">10:40 – 11:20</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Plenary lecture 1</span>
+                                    <div class="session-title">Sustainability by design: integrating sustainable principles into modern dental practice</div>
+                                    <div class="session-speaker">Dr. Sharaschandra Reddy</div>
+                                </div>
+                            </div>
+                            <div class="session is-break">
+                                <div class="session-time">11:20 – 11:35</div>
+                                <div class="session-body"><span class="session-title">Coffee &amp; tea break</span></div>
+                            </div>
+                            <div class="session is-break">
+                                <div class="session-time">11:35 – 12:15</div>
+                                <div class="session-body"><span class="session-title">Break</span></div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">12:15 – 12:45</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Invited speaker 1</span>
+                                    <div class="session-title">Environmental sustainability in periodontics — a life cycle assessment (LCA) of a scaling procedure</div>
+                                    <div class="session-speaker">Dr. Prebha Manickam</div>
+                                </div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">12:45 – 13:15</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Invited speaker 2</span>
+                                    <div class="session-title">From global burden to local action: an epidemiologist's blueprint for embedding oral health into ESG strategy</div>
+                                    <div class="session-speaker">Dr. Siddharthan Selvaraj</div>
+                                </div>
+                            </div>
+                            <div class="session is-break">
+                                <div class="session-time">13:15 – 14:15</div>
+                                <div class="session-body"><span class="session-title">Lunch break</span></div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">14:15 – 15:15</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Panel discussion · 90 minutes</span>
+                                    <div class="session-title">Are we overtreating? Ethics, diagnosis &amp; the ESG lens on clinical decision-making</div>
+                                </div>
+                            </div>
+                            <div class="session is-break">
+                                <div class="session-time">15:15 – 15:30</div>
+                                <div class="session-body"><span class="session-title">Coffee &amp; tea break</span></div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">15:30 – 15:50</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Invited speaker 3</span>
+                                    <div class="session-title">Teaching sustainability in dentistry: educational strategies for developing environmentally and socially responsible oral health professionals</div>
+                                    <div class="session-speaker">Dr. Galvin Sim Siang Lin</div>
+                                </div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">15:50 – 16:10</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Invited speaker 4</span>
+                                    <div class="session-title">Applying the bronze–silver–gold sustainability model for oral disease prevention and diagnosis</div>
+                                    <div class="session-speaker">Dr. Dinesh Kumar Yadav</div>
+                                </div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">16:10 – 16:30</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Invited speaker 5</span>
+                                    <div class="session-title">Oral cancer prevention as a social responsibility: the dentist's role in sustainable healthcare</div>
+                                    <div class="session-speaker">Dr. Anand Krishnan</div>
+                                </div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">16:30 – 16:50</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Invited speaker 6</span>
+                                    <div class="session-title">Ethical research for sustainable educational change</div>
+                                    <div class="session-speaker">Dr. R. Pavithra</div>
+                                </div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">16:50 – 17:30</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Plenary speaker 2</span>
+                                    <div class="session-title">Role of modern, digitally designed subperiosteal implants in the management of severe bone atrophy</div>
+                                    <div class="session-speaker">Dr. Rod Jacinto</div>
+                                </div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">17:30 – 18:00</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Invited speaker 7</span>
+                                    <div class="session-title">Precision &amp; posture in modern dentistry — a physiotherapeutic perspective</div>
+                                    <div class="session-speaker">Dr. Kshtrashal Singh</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="day-panel" id="panel-day2" role="tabpanel" aria-labelledby="tab-day2" hidden>
+                    <div class="schedule-day">
+                        <div class="schedule-day-head">
+                            <h2>Sunday, 27 September 2026</h2>
+                            <span>Day 2</span>
+                        </div>
+                        <div class="session-list">
+                            <div class="session is-break">
+                                <div class="session-time">08:30 – 09:00</div>
+                                <div class="session-body"><span class="session-title">Registration</span></div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">09:00 – 09:40</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Plenary speaker 3</span>
+                                    <div class="session-title">Lifetime sustainability in esthetic zone tooth replacement: clinical realities and the biomechanical validation of monolithic HA/APSI implant design</div>
+                                    <div class="session-speaker">Dr. Norman Kwan</div>
+                                </div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">09:40 – 10:20</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Plenary speaker 4</span>
+                                    <div class="session-title">Digital determinants of health: implications for equity and sustainable healthcare</div>
+                                    <div class="session-speaker">Dr. Swathi Ramachandran</div>
+                                </div>
+                            </div>
+                            <div class="session is-break">
+                                <div class="session-time">10:20 – 10:35</div>
+                                <div class="session-body"><span class="session-title">Coffee &amp; tea break</span></div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">10:35 – 11:15</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Keynote lecture 3</span>
+                                    <div class="session-title">ESG in global healthcare: lessons for dentistry</div>
+                                    <div class="session-speaker">Dr. Uma Revathi Gopalakrishnan</div>
+                                </div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">11:15 – 11:45</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Invited speaker 6</span>
+                                    <div class="session-title">Reimagining geriatric dentistry for sustainable oral healthcare — an ESG perspective</div>
+                                    <div class="session-speaker">Dr. Rahmath Shameem S</div>
+                                </div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">11:45 – 12:15</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Invited speaker 7</span>
+                                    <div class="session-title">Oral health-related quality of life through the lens of environmental and social inequities</div>
+                                    <div class="session-speaker">Dr. Anusha Divvi</div>
+                                </div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">12:15 – 12:45</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Invited speaker 8</span>
+                                    <div class="session-title">Clinical perspectives of aesthetic restorative materials</div>
+                                    <div class="session-speaker">Dr. R. Ajay</div>
+                                </div>
+                            </div>
+                            <div class="session is-break">
+                                <div class="session-time">12:45 – 13:45</div>
+                                <div class="session-body"><span class="session-title">Lunch break</span></div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">13:45 – 14:05</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Invited speaker 9</span>
+                                    <div class="session-title">Sustainable pediatric oral healthcare through minimal intervention</div>
+                                    <div class="session-speaker">Dr. M. Kamatchi</div>
+                                </div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">14:05 – 14:25</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Invited speaker 10</span>
+                                    <div class="session-title">Single-visit success formula for apical periodontitis: an evidence-based endodontic perspective</div>
+                                    <div class="session-speaker">Dr. Vigneshwari S</div>
+                                </div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">14:25 – 14:45</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Invited speaker 11</span>
+                                    <div class="session-title">Sustainable oral and maxillofacial surgery: integrating innovation, digital technologies and ESG principles</div>
+                                    <div class="session-speaker">Dr. Lokesh Chandra</div>
+                                </div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">14:30 – 15:30</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Parallel sessions</span>
+                                    <div class="session-title">Parallel oral presentation session 2 (6–8 presentations)</div>
+                                    <div class="session-topic">Poster presentation &amp; judging running as a parallel session.</div>
+                                </div>
+                            </div>
+                            <div class="session is-break">
+                                <div class="session-time">15:30 – 15:45</div>
+                                <div class="session-body"><span class="session-title">Coffee &amp; tea break</span></div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">15:45 – 16:15</div>
+                                <div class="session-body">
+                                    <span class="session-kind">Showcase</span>
+                                    <div class="session-title">Best oral presentation showcase (top 3 presentations, optional)</div>
+                                </div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">16:15 – 16:45</div>
+                                <div class="session-body"><span class="session-kind">Closing</span><div class="session-title">Conference summary &amp; future collaborations</div></div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">16:45 – 17:15</div>
+                                <div class="session-body"><span class="session-kind">Ceremony</span><div class="session-title">Awards ceremony</div></div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">17:15 – 17:30</div>
+                                <div class="session-body"><span class="session-kind">Closing</span><div class="session-title">Vote of thanks</div></div>
+                            </div>
+                            <div class="session">
+                                <div class="session-time">17:30</div>
+                                <div class="session-body"><span class="session-kind">Closing</span><div class="session-title">Closing ceremony</div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--alt">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow">Program at a glance</span>
+                    <h2>Scientific program summary</h2>
+                </div>
+                <div class="table-wrap reveal" style="--delay:80ms">
+                    <table class="data-table">
+                        <thead>
+                            <tr><th scope="col">Category</th><th scope="col">Number</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Plenary lectures</td><td class="num">4</td></tr>
+                            <tr><td>Keynote lectures</td><td class="num">3</td></tr>
+                            <tr><td>Invited speakers</td><td class="num">10</td></tr>
+                            <tr><td>Panel discussion</td><td class="num">1 · 90 minutes</td></tr>
+                            <tr><td>Oral presentation sessions</td><td class="num">2</td></tr>
+                            <tr><td>Poster presentation sessions</td><td class="num">1</td></tr>
+                            <tr><td>Awards ceremony</td><td class="num">1</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow">Timing</span>
+                    <h2>Suggested presentation duration</h2>
+                </div>
+                <div class="table-wrap reveal" style="--delay:80ms">
+                    <table class="data-table">
+                        <thead>
+                            <tr><th scope="col">Session</th><th scope="col">Duration</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Plenary speaker</td><td>40–60 minutes</td></tr>
+                            <tr><td>Keynote speaker</td><td>40–60 minutes</td></tr>
+                            <tr><td>Invited speakers</td><td>20–45 minutes</td></tr>
+                            <tr><td>Oral presentation</td><td>10 minutes + 5 minutes Q&amp;A</td></tr>
+                            <tr><td>Poster presentation</td><td>5 minutes judging / discussion per poster</td></tr>
+                            <tr><td>Panel discussion</td><td>90 minutes</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="cta-band reveal" style="margin-top:clamp(2.5rem,5vw,4rem)">
+                    <span class="eyebrow">Join us</span>
+                    <h2>Register to attend ICESGSD 2026</h2>
+                    <p>Early-bird registration is open until 15 September 2026. All sessions are delivered online.</p>
+                    <div class="cta-actions">
+                        <a class="btn btn--accent" href="./registration/index.html">Register now</a>
+                        <a class="btn btn--ghost" href="./speakers/index.html">Meet the speakers</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a class="footer-brand" href="index.html">
+                        <img src="assets/aimst logo.png" alt="AIMST University logo" width="42" height="42">
+                        <div>
+                            <strong>ICESGSD 2026</strong>
+                            <span>2nd International Conference</span>
+                        </div>
+                    </a>
+                    <p>Environment, Social &amp; Governance and Sustainability in Dentistry. Hosted online by the Faculty of Dentistry, AIMST University, Malaysia.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/aimst2u/" target="_blank" rel="noopener" aria-label="AIMST University on Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/aimstuniversity/" target="_blank" rel="noopener" aria-label="AIMST University on Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://my.linkedin.com/school/aimst-university2001/" target="_blank" rel="noopener" aria-label="AIMST University on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/@aimstuniversityaimst2u" target="_blank" rel="noopener" aria-label="AIMST University on YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="./organisers/index.html">Organisers</a></li>
+                        <li><a href="./program/index.html">Program</a></li>
+                        <li><a href="./speakers/index.html">Speakers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Participate</h4>
+                    <ul>
+                        <li><a href="./registration/index.html">Registration</a></li>
+                        <li><a href="./cab/index.html">Call for Abstracts</a></li>
+                        <li><a href="./contact/index.html">Contact</a></li>
+                        <li><a href="https://www.aimst.edu.my/" target="_blank" rel="noopener">AIMST website</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-col--contact">
+                    <h4>Get in touch</h4>
+                    <ul>
+                        <li><a href="mailto:icesgsd.sustainability@aimst.edu.my">icesgsd.sustainability@aimst.edu.my</a></li>
+                        <li><span>26–27 September 2026</span></li>
+                        <li><span>Online · Malaysia (MYT)</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 ICESGSD · AIMST University, Malaysia</span>
+                <span><a href="./contact/index.html">Contact</a> · <a href="./registration/index.html">Register</a></span>
+            </div>
         </div>
-    </div>
-
-    <table class="navigation">
-        <tr>
-            <td class="navigation">
-                <a title="Conference Home Page" href="index.html">Home</a>
-            </td>
-            <td class="navigation">
-                <a href="./organisers/index.html">Organisers</a>
-            </td>
-            <td class="navigation">
-                <a class="current" href="./program/index.html">Program</a> 
-            </td>
-            <td class="navigation">
-                <a href="./speakers/index.html">Speakers</a> 
-            </td>
-            <td class="navigation">
-                <a href="./registration/index.html">Registration</a>
-            </td>
-            <td class="navigation">
-                <a href="./cab/index.html">Call for Abstracts</a>
-            </td>
-            <td class="navigation">
-                <a href="./contact/index.html">Contact</a>
-            </td>
-        </tr>
-    </table>
-
-    <h2>Program Schedule</h2>
-
-    <h3 class="title-special">Day 1 - Saturday, 26 September 2026</h3>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                08:30 - 09:00
-            </td>
-            <td class="title-special">
-                Registration and Virtual Check-in
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                09:00 - 09:10
-            </td>
-            <td class="title-special">
-                Master of Ceremony Welcome
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                09:10 - 09:20
-            </td>
-            <td class="title-special">
-                Welcome Address by Organising Chair
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                09:20 - 09:35
-            </td>
-            <td class="title-special">
-                Address by Dean, Faculty of Dentistry, AIMST University
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                09:35 - 09:50
-            </td>
-            <td class="title-special">
-                Address by Vice Chancellor / Chief Guest
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                09:50 - 10:00
-            </td>
-            <td class="title-special">
-                Official Opening & Launch Ceremony of the Conference
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                10:00 - 10:40
-            </td>
-            <td class="title">
-                Keynote Lecture 1
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Prof. Dr. Ramya Ramadoss
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: Dentistry in 2035 – AI, Bioprinting & the ESG Imperative
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                10:40 - 11:20
-            </td>
-            <td class="title">
-                Plenary Lecture 1
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. Sharaschandra Reddy
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: Sustainability by Design: Integrating Sustainable Principles into Modern Dental Practice
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                11:20 - 11:35
-            </td>
-            <td class="title-special">
-                Coffee & Tea Break
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                11:35 - 12:15
-            </td>
-            <td class="title-special">
-                Break
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                <!-- Dr. Allen Ali Nasseh -->
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                <!-- Title: The Future of Endodontics: Where Are We Heading?   (Tentative) -->
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                12:15 - 12:45
-            </td>
-            <td class="title">
-                Invited Speaker 1
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. Prebha Manickam
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: Environmental Sustainability in Periodontics — A Life Cycle Assessment (LCA) of a Scaling Procedure
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                12:45 - 13:15
-            </td>
-            <td class="title">
-                Invited Speaker 2
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. Siddharthan Selvaraj
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: From Global Burden to Local Action: An Epidemiologist's Blueprint for Embedding Oral Health into ESG Strategy"
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                13:15 - 14:15
-            </td>
-            <td class="title-special">
-                Lunch Break
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                14:15 - 15:15
-            </td>
-            <td class="title">
-                Panel Discussion (90 minutes)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Are We Overtreating? Ethics, Diagnosis & the ESG Lens on Clinical Decision-Making
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                15:15 - 15:30
-            </td>
-            <td class="title-special">
-                Coffee & Tea Break
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                15:30 - 15:50
-            </td>
-            <td class="title">
-                Invited Speaker 3
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. Galvin Sim Siang Lin
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: Teaching Sustainability in Dentistry: Educational Strategies for Developing Environmentally and Socially Responsible Oral Health Professionals
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                15:50 - 16:10
-            </td>
-            <td class="title">
-                Invited Speaker 4
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. Dinesh Kumar Yadav
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: Applying the Bronze-Silver-Gold Sustainability Model for Oral Disease Prevention and Diagnosis
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                16:10 - 16:30
-            </td>
-            <td class="title">
-                Invited Speaker 5
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. Anand Krishnan
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: Oral Cancer Prevention as a Social Responsibility: The Dentist's Role in Sustainable Healthcare
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                16:30 - 16:50
-            </td>
-            <td class="title">
-                Invited Speaker 6
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. R. Pavithra MDS
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: Ethical Research for Sustainable Educational Change
-            </td>
-        </tr>
-    </table>
-
-        <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                16:50 - 17:30
-            </td>
-            <td class="title">
-                Plenary Speaker 2
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. Rod Jacinto
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: Role of Modern, Digitally Designed Subperiosteal Implants in the Management of Severe Bone Atrophy
-            </td>
-        </tr>
-    </table>
-
-        <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                17:30 - 18:00
-            </td>
-            <td class="title">
-                Invited Speaker 7
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr.Kshtrashal Singh
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: Precision & Posture in Modern Dentistry — A Physiotherapeutic Perspective
-            </td>
-        </tr>
-    </table>
-
-    <h3 class="title-special">Day 2 - Sunday, 27 September 2026</h3>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                08:30 - 09:00
-            </td>
-            <td class="title-special">
-                Registration
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                09:00 - 09:40
-            </td>
-            <td class="title">
-                Plenary Speaker 3
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. Norman Kwan
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: Lifetime Sustainability in Esthetic Zone Tooth Replacement: Clinical Realities and the Biomechanical Validation of Monolithic HA/APSI Implant Design
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                09:40 - 10:20
-            </td>
-            <td class="title">
-                Plenary Speaker 4
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. Swathi Ramachandran
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: Digital Determinants of Health: Implications for Equity and Sustainable Healthcare
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                10:20 - 10:35
-            </td>
-            <td class="title-special">
-                Coffee & Tea Break
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                10:35 - 11:15
-            </td>
-            <td class="title">
-                Keynote Lecture 3
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. Uma Revathi Gopalakrishnan
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: “ESG In Global Healthcare: Lessons for Dentistry”
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                11:15 - 11:45
-            </td>
-            <td class="title">
-                Invited Speaker 6
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. Rahmath Shameem S
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: Reimagining Geriatric Dentistry for Sustainable Oral Healthcare - An ESG Perspective
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                11:45 - 12:15
-            </td>
-            <td class="title">
-                Invited Speaker 7
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. Anusha Divvi
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: Oral Health-Related Quality of Life Through the Lens of Environmental and Social Inequities
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                12:15 - 12:45
-            </td>
-            <td class="title">
-                Invited Speaker 8
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. R. Ajay
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: Clinical Perspectives of Aesthetic Restorative Materials
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                12:45 - 13:45
-            </td>
-            <td class="title-special">
-                Lunch Break
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                13:45 - 14:05
-            </td>
-            <td class="title">
-                Invited Speaker 9
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. M. Kamatchi
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Title: Sustainable Pediatric Oral Healthcare through Minimal Intervention
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                14:05 - 14:25
-            </td>
-            <td class="title">
-                Invited Speaker 10
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. Vigneshwari S
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Theme: Single visit success formula for apical periodontitis: An evidence based Endodontic perspective
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                14:25 - 14:45
-            </td>
-            <td class="title">
-                Invited Speaker 11
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Dr. Lokesh Chandra
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Theme: Sustainable Oral and Maxillofacial Surgery: Integrating Innovation, Digital Technologies, and ESG Principles for the Future of Healthcare
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="3">
-                14:30 - 15:30
-            </td>
-            <td class="title-special">
-                Parallel Oral Presentation Session 2 (6-8 presentations)
-                
-            </td>
-        </tr>
-        <tr>
-            <td class="title-special">
-                Poster Presentation & Judging (Parallel Session)
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                15:30 - 15:45
-            </td>
-            <td class="title-special">
-                Coffee & Tea Break
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                15:45 - 16:15
-            </td>
-            <td class="title-special">
-                Best Oral Presentation Showcase (Top 3 Presentations, optional)
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                16:15 - 16:45
-            </td>
-            <td class="title-special">
-                Conference Summary & Future Collaborations
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                16:45 - 17:15
-            </td>
-            <td class="title-special">
-                Awards Ceremony
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                17:15 - 17:30
-            </td>
-            <td class="title-special">
-                Vote of Thanks
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                17:30
-            </td>
-            <td class="title-special">
-                Closing Ceremony
-            </td>
-        </tr>
-    </table>
-
-    <h3 class="title-special">Scientific Program Summary</h3>
-
-    <table class="styled-table">
-        <tr>
-            <th>
-                Category
-            </th>
-            <th>
-                Number
-            </th>
-        </tr>
-        <tr>
-            <td>
-                Plenary Lectures
-            </td>
-            <td>
-                4
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Keynote Lectures
-            </td>
-            <td>
-                3
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Invited Speakers
-            </td>
-            <td>
-                10
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Panel Discussion
-            </td>
-            <td>
-                1 (90 minutes)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Oral Presentations Sessions
-            </td>
-            <td>
-                2
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Poster Presentations Sessions
-            </td>
-            <td>
-                1
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Awards Ceremony
-            </td>
-            <td>
-                1
-            </td>
-        </tr>
-    </table>
-
-    <h3 class="title-special">Suggested Presentation Duration</h3>
-
-    <table class="styled-table">
-        <tr>
-            <th>
-                Session
-            </th>
-            <th>
-                Duration
-            </th>
-        </tr>
-        <tr>
-            <td>
-                Plenary Speaker
-            </td>
-            <td>
-                40 minutes to 60 minutes
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Keynote Speaker
-            </td>
-            <td>
-                40 minutes to 60 minutes
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Invited Speakers
-            </td>
-            <td>
-                20 minutes to 45 minutes
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Oral Presentation
-            </td>
-            <td>
-                10 minutes presentations + 5 minutes Q&A
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Poster Presentation
-            </td>
-            <td>
-                5 minutes judging / discussion per poster
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Panel Discussion
-            </td>
-            <td>
-                90 minutes
-            </td>
-        </tr>
-    </table>
-
-    <footer>
-        <img src="./assets/aimst logo.png" alt="Conference Logo" style="width: 30px; height: 30px; vertical-align: middle; margin-left: 5px;">
-        AIMST University, Malaysia | 2nd ICESGSD 
-        <!-- &nbsp;|&nbsp; Design by <a href="https://github.com/mikepierce">Mike Pierce</a> -->
     </footer>
 
+    <script src="assets/theme.js" defer></script>
 </body>
-</html>
 
+</html>
